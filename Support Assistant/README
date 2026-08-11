@@ -28,8 +28,7 @@ support_assistant/
 │   ├── doc_07.txt
 │   └── doc_08.txt
 │
-├── main.py
-├── test_examples.py
+├── Support Assistant.ipynb
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
