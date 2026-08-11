@@ -1,0 +1,35 @@
+# Module 3 — Support Assistant
+
+## Overview
+
+This module implements a small Zepto customer-support RAG service.
+
+The pipeline is:
+
+Ingestion → Embedding → Retrieval → Generation → Structured JSON → FastAPI
+
+The required graded baseline runs with MOCK_LLM unset or MOCK_LLM=1.
+
+No LLM API key is required for the graded baseline.
+
+---
+
+## Project Structure
+
+```text
+support_assistant/
+├── docs/
+│   ├── doc_01.txt
+│   ├── doc_02.txt
+│   ├── doc_03.txt
+│   ├── doc_04.txt
+│   ├── doc_05.txt
+│   ├── doc_06.txt
+│   ├── doc_07.txt
+│   └── doc_08.txt
+│
+├── main.py
+├── test_examples.py
+├── requirements.txt
+├── Dockerfile
+└── README.md
